@@ -1,9 +1,12 @@
 ﻿// 本地
-git init （一次性）
+git init (once on init)
 git add . && git commit -m "MyCommentar"
 
 
 // 远程
-git remote add origin https://github.com/jackinz/help.git （一次性）
+git remote add origin https://github.com/jackinz/help.git (once on init)
+or
+git clone https://github.com/jackinz/help.git help (once on init)
+
 git pull
 git push -u origin master
