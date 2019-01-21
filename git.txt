@@ -4,9 +4,9 @@ git add . && git commit -m "MyCommentar"
 
 
 // 远程
-git remote add origin https://github.com/jackinz/help.git (once on init)
+git remote add origin https://github.com/jackinz/help.git (once on init, local --> github)
 or
-git clone https://github.com/jackinz/help.git help (once on init)
+git clone https://github.com/jackinz/help.git help (once on init, github --> local)
 
 git pull
 git push -u origin master
